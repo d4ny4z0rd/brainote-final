@@ -19,8 +19,7 @@ export default function Home() {
 				</span>
 			</div>
 			<p className="text-center max-w-prose text-slate-600">
-				An intelligent note-taking app with AI integration, built with OpenAI,
-				Pinecone, Nextjs, Shadcn UI, clerk and more.
+				Introducing Draco, your smart companion for note-taking. This cutting-edge app merges intuitive design with advanced AI, creating a dynamic and personalized experience. Draco engages in natural conversations, learns your habits, and provides intelligent suggestions, making note-taking an effortless and productive endeavor. Welcome to a future where organization meets innovation, all at your fingertips with Draco.
 			</p>
 			<Button asChild size={"lg"}>
 				<Link href={"/notes"}>Open</Link>
