@@ -37,7 +37,7 @@ export async function POST(req: Request) {
 		const systemMessage: ChatCompletionMessage = {
 			role: "assistant",
 			content:
-				"You are an intelligent note taking app that Prabhav Dixit created. You answer the users answers based on their existing notes." +
+				"You are an AI that Prabhav Dixit created, and your name is Draco. You answer the users answers based on their existing notes." +
 				"The relevant notes for this query are :\n" +
 				relevantNotes
 					.map((note) => `Title : ${note.title}\n\nContent:\n${note.content}`)
